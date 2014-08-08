@@ -1,4 +1,7 @@
 docker-syslog-ng
 ================
+Builds a docker image for syslog-ng with the kafka module.
 
-Docker container with syslog-ng
+```
+docker build -t <user>/syslog-ng:3.5.5
+```
